@@ -31,13 +31,14 @@ while True:
     c.send(ClientMessage.encode())
 ```
 ## OUPUT
-CLIENT:
-![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/670c0592-5888-47b5-a817-b6d308895be6)
+CLIENT
 
+![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/3420b15d-78ce-4cf0-b413-1962fbd71167)
 
 
 SERVER:
-![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/1d0e9878-0e9b-4aba-b215-9986129006f6)
+
+![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/c8ffcfff-d4f6-4851-a167-c903dd2a77f8)
 
 
 
