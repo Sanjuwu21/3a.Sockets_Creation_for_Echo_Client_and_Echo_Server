@@ -36,7 +36,8 @@ while True:
 ![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/2a98c4c7-4895-461f-876e-4a3f09d4141b)
 
 ## Server:
-![Uploading image.png…]()
+![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/7c652025-1fd2-4a57-8cb3-eeeb850442bf)
+
 
 
 ## RESULT
