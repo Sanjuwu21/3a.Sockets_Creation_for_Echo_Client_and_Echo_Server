@@ -9,37 +9,34 @@ Sockets Links.
  server .
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
-CLIENT:
+## Client:
 ```
-import socket 
-s=socket.socket() 
-s.connect(('localhost',8000)) 
-while True: 
-    msg=input("Client > ") 
-    s.send(msg.encode()) 
-    print("Server > ",s.recv(1024).decode())  
+import socket
+s=socket.socket()
+s.connect(('localhost',8000))
+while True:
+ msg=input("Client > ")
+ s.send(msg.encode())
+ print("Server > ",s.recv(1024).decode())
 ```
-SERVER:
+## Server:
 ```
-import socket 
-s=socket.socket() 
-s.bind(('localhost',8000)) 
-s.listen(5) 
-c,addr=s.accept() 
-while True: 
-    ClientMessage=c.recv(1024).decode() 
-    c.send(ClientMessage.encode())
+import socket
+s=socket.socket()
+s.bind(('localhost',8000))
+s.listen(5)
+c,addr=s.accept()
+while True:
+ ClientMessage=c.recv(1024).decode()
+ c.send(ClientMessage.encode())
 ```
+
 ## OUPUT
-CLIENT
+## Client:
+![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/2a98c4c7-4895-461f-876e-4a3f09d4141b)
 
-![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/3420b15d-78ce-4cf0-b413-1962fbd71167)
-
-
-SERVER:
-
-![image](https://github.com/Sanjuwu21/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/146498969/c8ffcfff-d4f6-4851-a167-c903dd2a77f8)
-
+## Server:
+![Uploading image.png…]()
 
 
 ## RESULT
